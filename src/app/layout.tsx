@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'DevUp',
+  title: 'DevUp Project',
   description:
     'The free-space for developers to share their endeavors and interact with each others!',
 };
