@@ -7,7 +7,7 @@ export default function Home() {
     <main className={styles.main}>
       <section className={styles.section}>
         <Image alt="platform logo" src="/Logo.svg" width={264} height={100} />
-        <h1>Welcome to DevUp Project!</h1>
+        <h2>Welcome to DevUp Project!</h2>
         <p className={styles.p}>
           The free-space for developers to share their endeavors and interact
           with each others
