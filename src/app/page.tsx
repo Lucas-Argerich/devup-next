@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import Link from 'next/link';
+import Button from '@/components/common/Button';
 
 export default function Home() {
   return (
@@ -14,10 +14,8 @@ export default function Home() {
         </p>
       </section>
       <section className={styles.section}>
-        <Link href="/auth/signup">Sign Up</Link>
-        {/*Will be a button component*/}
-        <Link href="/auth/login">Log in</Link>
-        {/*Will be a button component*/}
+        <Button>Sign Up</Button>
+        <Button type='tertiary'>Log in</Button>
       </section>
     </main>
   );
