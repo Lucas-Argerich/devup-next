@@ -4,12 +4,17 @@
   outline: none;
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button *:nth-child(2) {
+  margin: auto;
 }
 
 .primary {
   background: var(--gradient-primary);
-  display: flex;
-  gap: 10px;
   padding: 10px 40px;
   max-height: 40px;
   border-radius: 20px;
