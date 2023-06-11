@@ -2,6 +2,12 @@
 
 :root {
   --gradient-primary: linear-gradient(45deg, #00FF87, #60EFFF);
+  --color-background: #ffffff;
+  --color-primary: #00FF87;
+  --color-secondary: #60EFFF;
+  --color-tertiary: #3F84E5;
+  --color-quaternary: #F18F01;
+  --color-black: #111111;
 }
 
 html {
@@ -9,7 +15,7 @@ html {
 }
 
 body {
-  color: #000000;
+  color: var(--color-black);
   font-family: 'Inter', sans-serif;
   min-height: 100%;
 }
