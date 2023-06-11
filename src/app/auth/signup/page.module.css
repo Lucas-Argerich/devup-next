@@ -24,7 +24,7 @@
   content: '';
   width: 30%;
   height: 1px;
-  background: #000000;
+  background: var(--color-black);
   display: inline-block;
   margin: auto 5px;
 }
