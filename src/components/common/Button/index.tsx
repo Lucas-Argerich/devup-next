@@ -13,7 +13,7 @@ interface IButton {
 export default function Button({ children, onClick, type, fill }: IButton) {
   const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault();
-    onClick && onClick();
+    onClick?.();
   };
 
   return (
